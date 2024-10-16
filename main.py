@@ -30,7 +30,7 @@ def main():
 
 
 def showflight(trip):
-    print('Flight details: {} | Cost £{}'.format(trip.description, trip.cost))
+    print('Flight details: {} | Cost: £{}'.format(trip.description, trip.cost))
 
 
 if __name__ == '__main__':
