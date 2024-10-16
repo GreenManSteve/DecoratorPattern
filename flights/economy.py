@@ -1,4 +1,4 @@
-from cars.abs_flight import AbsFlight
+from flights.abs_flight import AbsFlight
 
 
 class Economy(AbsFlight):

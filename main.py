@@ -1,6 +1,6 @@
-from cars.business import Business
-from cars.economy import Economy
-from cars.first import First
+from flights.business import Business
+from flights.economy import Economy
+from flights.first import First
 from decorators.early_boarding import EarlyBoarding
 from decorators.window import Window
 
