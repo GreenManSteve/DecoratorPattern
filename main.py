@@ -7,7 +7,21 @@ from decorators.window import Window
 
 def main():
     # set trip = Business(), Economy() or First()
+    trip = Economy()
+    showflight(trip)
+    trip = Window(trip)
+    showflight(trip)
+    trip = EarlyBoarding(trip)
+    showflight(trip)
+
     trip = Business()
+    showflight(trip)
+    trip = Window(trip)
+    showflight(trip)
+    trip = EarlyBoarding(trip)
+    showflight(trip)
+
+    trip = First()
     showflight(trip)
     trip = Window(trip)
     showflight(trip)
@@ -16,7 +30,7 @@ def main():
 
 
 def showflight(trip):
-    print(trip.description, trip.cost)
+    print('Flight details: {} | Cost £{}'.format(trip.description, trip.cost))
 
 
 if __name__ == '__main__':
