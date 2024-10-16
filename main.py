@@ -15,8 +15,8 @@ def main():
     showflight(trip)
 
 
-def showflight(car):
-    print(car.description, car.cost)
+def showflight(trip):
+    print(trip.description, trip.cost)
 
 
 if __name__ == '__main__':
